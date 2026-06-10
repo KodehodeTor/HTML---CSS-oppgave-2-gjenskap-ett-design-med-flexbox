@@ -8,6 +8,15 @@
   font-style: normal;
 } */
 
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+/* 
+.big-shoulders-<uniquifier> {
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
 
 * {
   margin: 0;
@@ -18,23 +27,30 @@
 body {
   font-family: "Lexend Deca", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
+  font-size: 15px;
+}
+
+h1 {
 }
 
 .sedan-img {
   width: 40px;
   height: 30px;
+  border: 2px solid black;
 }
 
 .SUV-img {
   width: 40px;
   height: 30px;
+  border: 2px solid black;
 }
 
 .luxury-img {
   width: 40px;
   height: 30px;
+  border: 2px solid black;
 }
 
 .boxes {
@@ -50,24 +66,28 @@ body {
   background-color: hsl(31, 77%, 52%);
   height: 500px;
   width: 305px;
+  border: 2px solid black;
 }
 
 .suv-main-box {
   background-color: hsl(184, 100%, 22%);
   height: 500px;
   width: 305px;
+  border: 2px solid black;
 }
 
 .luxury-main-box {
   background-color: hsl(179, 100%, 13%);
   height: 500px;
   width: 305px;
+  border: 2px solid black;
 }
 
 .btn {
   text-align: center;
   display: flex;
   align-items: end;
+  border: 2px solid rgb(230, 16, 219);
 }
 
 .btn .sedan-btn {
