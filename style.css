@@ -15,5 +15,61 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.sedan-img {
+  width: 40px;
+  height: 30px;
+}
+
+.SUV-img {
+  width: 40px;
+  height: 30px;
+}
+
+.luxury-img {
+  width: 40px;
+  height: 30px;
+}
+
 .boxes {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+
+.sedan-main-box {
+  background-color: hsl(31, 77%, 52%);
+  height: 500px;
+  width: 305px;
+}
+
+.suv-main-box {
+  background-color: hsl(184, 100%, 22%);
+  height: 500px;
+  width: 305px;
+}
+
+.luxury-main-box {
+  background-color: hsl(179, 100%, 13%);
+  height: 500px;
+  width: 305px;
+}
+
+.btn {
+  text-align: center;
+  display: flex;
+  align-items: end;
+}
+
+.btn .sedan-btn {
+  align-items: end;
 }
