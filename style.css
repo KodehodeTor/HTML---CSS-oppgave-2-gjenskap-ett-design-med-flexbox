@@ -38,36 +38,46 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  margin-right: 40px;
 }
 
 p {
+  margin-left: 20px;
   margin-top: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.suv-h1 {
 }
 
 .sedan-img {
   margin-top: 30px;
-  width: 40px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
+  margin-left: 25px;
 }
 
 .SUV-img {
   margin-top: 30px;
-  width: 40px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
+  margin-left: 25px;
 }
 
 .luxury-img {
   margin-top: 30px;
-  width: 40px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
+  margin-left: 25px;
 }
 
 .boxes {
   display: flex;
   flex-direction: row;
-  text-align: center;
+  text-align: start;
   color: white;
-  justify-content: center;
+  padding: 20px;
+  /* margin: 0 auto; */
 }
 
 .sedan-main-box {
@@ -79,12 +89,19 @@ p {
 }
 
 .sedan-content {
+  display: flex;
+  justify-content: center;
 }
 
 .suv-main-box {
   background-color: hsl(184, 100%, 22%);
   height: 500px;
   width: 305px;
+}
+
+.SUV-content {
+  display: flex;
+  justify-content: center;
 }
 
 .luxury-main-box {
@@ -95,20 +112,25 @@ p {
   border-top-right-radius: 10px;
 }
 
-.btn {
-  text-align: center;
-  /* display: flex;
-  align-items: end; */
-  border: 2px solid rgb(230, 16, 219);
-  margin-top: 400px;
-  border-radius: 20px;
-}
-
-#btn {
-  /* display: flex; */
+.luxury-content {
+  display: flex;
   justify-content: center;
 }
 
+.btn {
+  /* text-align: center; */
+  /* display: flex;
+  align-items: end; */
+
+  margin-top: 400px;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+#btn {
+}
+
 .btn .sedan-btn {
-  align-items: end;
+  display: flex;
+  justify-content: center;
 }
