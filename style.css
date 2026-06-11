@@ -30,13 +30,19 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 p {
   margin-left: 20px;
   margin-top: 30px;
   color: hsla(0, 0%, 100%, 0.75);
+  letter-spacing: 2.5px;
+  word-spacing: 5px;
+  border: 2px solid red;
+  white-space: pre-line;
+  width: 240px;
+  height: 200px;
 }
 
 /* IMAGES */
@@ -93,18 +99,9 @@ p {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  margin-right: 110px;
+  margin-right: 130px;
   font-size: 40px;
   font-weight: normal;
-}
-
-.sedan-p {
-  letter-spacing: 2.5px;
-  word-spacing: 2px;
-  white-space: pre-line;
-  border: 2px solid red;
-  width: 240px;
-  height: 200px;
 }
 
 /* SUV BOX */
@@ -130,15 +127,6 @@ p {
   margin-right: 160px;
   font-size: 40px;
   font-weight: normal;
-}
-
-.SUV-p {
-  letter-spacing: 2.5px;
-  word-spacing: 2px;
-  white-space: pre-line;
-  border: 2px solid red;
-  width: 240px;
-  height: 200px;
 }
 
 /* LUXURY BOX */
@@ -169,34 +157,37 @@ p {
   font-weight: normal;
 }
 
-.luxury-p {
-  letter-spacing: 2.5px;
-  word-spacing: 2px;
-  white-space: pre-line;
-  border: 2px solid red;
-  width: 240px;
-  height: 200px;
-}
-
 /* BUTTONS */
 .btn {
-  /* display: flex; */
-  /* margin-top: 400px; */
-  border-radius: 20px;
-  padding: 0 30px;
-  margin-right: 50px;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  margin-right: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  padding: 15px 25px;
+  border: none;
+  margin-bottom: 20px;
 }
 
 #btn {
   margin-top: auto;
   align-self: center;
-  border-radius: 20px;
-  padding: 10px 20px;
+  border-radius: 10px;
   margin-right: 50px;
+  /* padding: 10px 40px; */
 }
 
-.btn .sedan-btn {
-  display: flex;
-  justify-content: center;
-  margin-right: 400px;
+.sedan-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.SUV-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
 }
