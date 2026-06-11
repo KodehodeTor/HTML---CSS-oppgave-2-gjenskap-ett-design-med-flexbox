@@ -78,6 +78,8 @@ p {
   width: 305px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sedan-content {
@@ -110,6 +112,8 @@ p {
   background-color: hsl(184, 100%, 22%);
   height: 500px;
   width: 305px;
+  display: flex;
+  flex-direction: column;
 }
 
 .SUV-content {
@@ -139,14 +143,14 @@ p {
 
 /* LUXURY BOX */
 .luxury-main-box {
-  display: flex;
-  flext-direction: column;
   padding: 20px;
   background-color: hsl(179, 100%, 13%);
   height: 500px;
   width: 305px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .luxury-content {
@@ -176,17 +180,23 @@ p {
 
 /* BUTTONS */
 .btn {
-  display: flex;
-  margin-top: 400px;
+  /* display: flex; */
+  /* margin-top: 400px; */
   border-radius: 20px;
-  padding: 0 20px;
-  margin-right: 400px;
+  padding: 0 30px;
+  margin-right: 50px;
 }
 
 #btn {
+  margin-top: auto;
+  align-self: center;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 50px;
 }
 
 .btn .sedan-btn {
   display: flex;
   justify-content: center;
+  margin-right: 400px;
 }
